@@ -16,6 +16,13 @@ body {
   background-color: #fff;
 }
 
+p {
+  font-size: 16;
+  font-weight: normal;
+  line-height: 30px;
+  display: block;
+}
+
 .hero {
   background-color: var(--secondary-color);
   padding: 160px 20px;
@@ -79,10 +86,43 @@ h6 {
   background-color: var(--branding-color)
 }
 
-h3 {
-  font-family: poppins;
+.featured {
+  border: 1px solid color:var(--branding-color);
+}
+
+.featured p {
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
   text-align: center;
+}
+
+.container {
+  width: 100%;
+  padding: 12px;
+}
+
+.container h2 {
+  font-size: 64px;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border-radius: 4px;
+  border: 1px, solid, var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
