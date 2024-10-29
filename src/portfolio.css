@@ -83,7 +83,7 @@ p {
   line-height: 1.5;
 }
 
-.about-content {
+.content {
   margin: 30px;
 }
 
@@ -94,9 +94,6 @@ p {
   color: var(--contrast-color);
 }
 
-.content img {
-  border-radius: 20px;
-}
 
 .work-inquiry h1 {
   font-size: 48px;
