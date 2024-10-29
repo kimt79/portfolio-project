@@ -59,35 +59,42 @@ p {
   line-height: 1.5;
 }
 
-.about-section {
+.content-container {
   background-color: var(--secondary-color);
   padding: 160px 20px;
 
 }
 
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+
+.content h2 {
   font-family: var(--default-font-family);
   font-size: 18px;
   color: var(--contrast-color);
 }
 
-.about-section-content {
+.content h3 {
+  font-family: var(--default-font-family);
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+.about-content {
   margin: 30px;
 }
 
-.about-section p {
+.content p {
   font-size: 16px;
   font-weight: normal;
   line-height: 1.5;
   color: var(--contrast-color);
 }
 
-.about-section img {
+.content img {
   border-radius: 20px;
 }
 
