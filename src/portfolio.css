@@ -31,6 +31,10 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-size: 16px;
   font-weight: normal;
@@ -88,30 +92,8 @@ p {
 }
 
 .content p {
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 1.5;
-  color: var(--contrast-color);
+  font-size: 14px;
 }
-
-.work-inquiry {
-  background-color: var(--secondary-color);
-}
-
-.work-inquiry h1 {
-  font-size: 48px;
-  font-weight: bold;
-  line-height: 2;
-}
-
-.work-inquiry p {
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 1.5;
-  color: var(--contrast-color);
-
-}
-
 
 
 .btn {
@@ -193,8 +175,47 @@ nav li.active a {
   color: var(--branding-color);
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer .work-inquiry {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
 
 
+
+footer .work-inquiry p {
+  margin: 0;
+
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--secondary-color);
+  background-color: var(--branding-color);
+}
 
 
 @media (max-width: 900px) {
@@ -206,6 +227,10 @@ nav li.active a {
 
   h2 {
     font-size: 44px;
+  }
+
+  h4 {
+    font-size: 26px;
   }
 
   .hero {
