@@ -43,6 +43,7 @@ p {
 }
 
 
+
 .hero {
   background-color: var(--secondary-color);
   padding: 80px 20px;
@@ -107,6 +108,21 @@ p {
 
 }
 
+.content-links a {
+  color: var(--contrast-color);
+  font-size: ;
+  text-decoration: underline;
+  transition: all 100ms ease-in-out;
+}
+
+.content-links a:hover {
+  color: var(--branding-color);
+}
+
+.content-links p {
+  font-size: 18px;
+}
+
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -124,7 +140,7 @@ p {
 .btn-branding {
   background-color: var(--branding-color);
   border-radius: 4px;
-  color: white;
+  color: black;
   font-size: 16px;
   line-height: 27px;
   padding: 18px, 30px;
