@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kimberly Thompson Portfolio</title>
+  <meta name="description"
+    content="Kimberly is a front-end engineer based in the kc metro area. She is excited to begin a new career in coding. Kimberly prefers remote work.">
+  <title>Front-end Developer Kimberly Thompson</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,14 +25,14 @@
 <body>
   <div class="container">
     <nav class="d-flex justify-content-between">
-      <a href="https://www.shecodes.io/">
+      <a href="https://www.shecodes.io/graduates/110408-kimberly-thompson" title="Kimberly's SheCodes profile">
         <img src="images/logo.png" class="logo d-none d-md-block" alt="sheCodes logo">
         <img src="images/sheCodeslogosm.jpg" class="logo d-block d-md-none" alt="small sheCodes logo"></a>
       <ul>
-        <li class="active"><a href="/"> Home</a></li>
-        <li><a href="/about.html"> About</a></li>
-        <li><a href="/work.html"> Work</a></li>
-        <li><a href="/contact.html"> Contact</a></li>
+        <li class="active"><a href="/" title="Homepage"> Home</a></li>
+        <li><a href="/about.html" title="About Kimberly"> About</a></li>
+        <li><a href="/work.html" title="Kimberly's work"> Work</a></li>
+        <li><a href="/contact.html" title="Contact Kimberly"> Contact</a></li>
       </ul>
     </nav>
   </div>
@@ -39,7 +41,7 @@
     <h1>Kimberly Thompson</h1>
     <h2 class="mb-5">Frontend Developer in Kansas City</h2>
     <div>
-      <a href="#" class="btn btn-branding">Contact Me</a>
+      <a href="/contact.html" class="btn btn-branding" title="Contact Kimberly">Contact Me</a>
     </div>
   </div>
 
@@ -48,7 +50,7 @@
   <div class="container">
     <div class="row mb-5">
       <div class="col d-none d-lg-block ">
-        <img src="images/weathappimg.PNG" class="img-fluid" alt="image of weather app">
+        <img src="images/weathappimg.PNG" class="img-fluid" alt="weather app preview">
       </div>
 
       <div class="col">
@@ -56,67 +58,75 @@
           <h2 class="mb-5">Weather App</h2>
           <p class="mb-5 text-muted"> Using this app, you can find the current weather and weekly forcast for any city
             in the World.</p>
-          <a href="#" class="btn btn-branding-outline">View Project Detail</a>
+          <a href="/work.html#weather" class="btn btn-branding-outline" title="Weather app details">View Project
+            Detail</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row mb-5">
+      <div class="col">
+        <div class="project-description">
+          <h2 class="mb-5">World Clock App</h2>
+          <p class="mb-5 text-muted"> This app shows the current date and time for any city in the World</p>
+          <a href="/work.html#clock" class="btn btn-branding-outline" title="World clock app details">View Project
+            Detail</a>
+        </div>
+      </div>
+
+      <div class="col d-none d-lg-block ">
+        <img src="images/worldclockappimg.PNG" class="img-fluid" alt="image of world clock">
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col d-none d-lg-block ">
+        <img src="images/recipeappimg.PNG" class="img-fluid" alt="image of recipe app">
+      </div>
+
+      <div class="col">
+        <div class="project-description">
+          <h2 class="mb-5">Recipe App</h2>
+          <p class="mb-5 text-muted">My recipe app uses AI search engine to find recipes for any herb, especially
+            medicinal herbs. I plan to further develop this app in the future.</p>
+          <a href="/work.html#recipe" class="btn btn-branding-outline" title="Recipe app details">View Project
+            Detail</a>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="row mb-5">
-    <div class="col">
-      <div class="project-description">
-        <h2 class="mb-5">World Clock App</h2>
-        <p class="mb-5 text-muted"> This app shows the current date and time for any city in the World</p>
-        <a href="#" class="btn btn-branding-outline">View Project Detail</a>
-      </div>
-    </div>
-
-    <div class="col d-none d-lg-block ">
-      <img src="images/worldclockappimg.PNG" class="img-fluid" alt="image of world clock">
-    </div>
-  </div>
-
-  <div class="row mb-5">
-    <div class="col d-none d-lg-block ">
-      <img src="images/recipeappimg.PNG" class="img-fluid" alt="image of recipe app">
-    </div>
-
-    <div class="col">
-      <div class="project-description">
-        <h2 class="mb-5">Recipe App</h2>
-        <p class="mb-5 text-muted">My recipe app uses AI search engine to find recipes for any herb, especially
-          medicinal herbs. I plan to further develop this app in the future.</p>
-        <a href="#" class="btn btn-branding-outline">View Project Detail</a>
-      </div>
-    </div>
-  </div>
-
-  <footer>
+  <footer class="container">
     <div class="work-inquiry container  d-flex-md">
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-md-8">
           <h4 class="mt-5">Work Inquiry</h4>
           <p class="text-muted mt-2">Let's work together!</p>
         </div>
-        <div class="col-4 p-5">
-          <a href="#" class="btn btn-branding mt-5">Consultation </a>
+        <div class="col-md-4 p-5">
+          <a href="/contact.html" class="btn btn-branding mt-3" title="Contact Kimberly">Consultation </a>
         </div>
       </div>
     </div>
 
-    <div class="d-flex justify-content-center mb-5">
-      <a href="mailto:kimberlycodes2024@gmail.com" class="email-link">kimberlycodes2024@gmail.com</a>
+    <div class="d-flex justify-content-center mb-4">
+      <a href="mailto:kimberlycodes2024@gmail.com" class="email-link"
+        title="Email Kimberly">kimberlycodes2024@gmail.com</a>
     </div>
 
     <div class="social-links d-flex justify-content-center">
-      <a href="https://github.com/kimt79"><i class="fa-brands fa-github"></i></a>
-      <a href="www.linkedin.com/in/kimberly-thompson-41b148226"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="https://www.meetup.com/members/420731935/"><i class="fa-brands fa-meetup"></i></a>
+      <a href="https://github.com/kimt79" target="_blank" title="Kimberly's GitHub profile"><i
+          class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/kimberly-thompson-41b148226/?trk=opento_sprofile_topcard" target="_blank"
+        title="Kimberly's LinkedIn profile"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://www.meetup.com/members/420731935/" target="_blank" title="Kimberly's MeetUp profile"><i
+          class="fa-brands fa-meetup"></i></a>
     </div>
-
+    <p class="text-center">This project is coded by Kimberly and is <a
+        href="https://github.com/kimt79/portfolio-project">open-sourced</a>.
+    </p>
   </footer>
-
-
 </body>
 
 </html>
